@@ -85,24 +85,3 @@ public void addItem(Item item)
 ```
 Digunakan untuk menambahkan item yg di inputkan kemudian
 dijumlahkan dengan total dan di nilainya dimasukkan di subtotal
-
-```c#
- private void AddButton_Click(object sender, RoutedEventArgs e)
-        {
-            string title = itemNameBox.Text;
-            int quantity = int.Parse(quantityBox.Text);
-            string type = TypeBox.Text;
-            double price = double.Parse(priceBox.Text);
-
-            Item item = new Item(new Random().Next(), title, quantity, price, price, type);
-            calculator.addItem(item);
-            double total = calculator.getTotal();
-
-            totalLabel.Content = string.Format("Rp. {0}", total);
-
-            ListBox.Items.Refresh();
-        }
-```
-digunakan untuk memproses data ketika tombol Tambahkan di klik
-dan menampilkan data yang di masukkan
-
