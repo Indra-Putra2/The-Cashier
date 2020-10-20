@@ -53,7 +53,7 @@
             </Grid>
         </ListBox>
         <Label Content="Total" HorizontalAlignment="Left" Margin="50,464,0,0" VerticalAlignment="Top"/>
-        <Label x:Name="totalLabel" Content="Rp.25000" HorizontalAlignment="Left" Margin="110,464,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="totalLabel" Content="Rp.0" HorizontalAlignment="Left" Margin="110,464,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>
