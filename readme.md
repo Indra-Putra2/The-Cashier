@@ -1,9 +1,12 @@
 ﻿# The Cashier
+aplikasi ini berfungsi untuk mendata barang/jasa yang 
+dibeli pelanggan menggunakan software the cashier sehingga 
+mempermudah dan mempercepat transaksi.
 
 ### Fungctionality
-aplikasi ini berfungsi untuk menghitung harga barang yang 
-dibeli pelanggan menggunakan software the cashier sehingga 
-mempercepat transaksi
+- User dapat menginputkan nama barang atau jasa
+- User dapat menginputkan jumlah barang
+- User dapat menginputkan harga barang
 
 ### Penjelasan Code
 
